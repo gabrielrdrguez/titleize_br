@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
   spec.summary = 'Rails String#titleize but with brazilian ABNT rules.'
   spec.homepage = 'https://github.com/gabrielrdrguez/titleize_br'
   spec.license = 'MIT'
-  spec.required_ruby_version = '>= 2.6.0'
+  spec.required_ruby_version = '>= 2.5.0'
 
   spec.metadata['homepage_uri'] = spec.homepage
   spec.metadata['source_code_uri'] = 'https://github.com/gabrielrdrguez/titleize_br'
