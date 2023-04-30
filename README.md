@@ -1,8 +1,18 @@
 # TitleizeBr
 
-TODO: Delete this and the text below, and describe your gem
+This gem is gives brazilians an easy way to titleize strings with our own grammar rules from ABNT.
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/titleize_br`. To experiment with that code, run `bin/console` for an interactive prompt.
+```ruby
+'o teste de titleize'.titleize
+=> "O Teste De Titleize"
+'o teste de titleize'.titleize_br
+=> "O Teste de Titleize" 
+```
+
+- First character or word is always capitalized
+- Connectives (pronouns and articles) are not capitalized unless they appear first
+
+Please open an issue or pull request if you find a word that is not being treated correctly
 
 ## Installation
 
@@ -28,7 +38,8 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/titleize_br.
+Bug reports and pull requests are welcome on GitHub at https://github.com/gabrielrdrguez/titleize_br.
+Please use imperative commit messages: https://cbea.ms/git-commit/#imperative 
 
 ## License
 
